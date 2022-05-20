@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 h1 {
   color: #426696;
   font-weight: 600;
@@ -180,4 +182,47 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+
+@media screen and (max-width:700px){
+  h1{
+    font-size: 25px;
+  }
+
+  h2,
+  p{
+    font-size: 20px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+ 
+  .glass{
+    width:30%;
+    flex-wrap: wrap;
+  
+  }
+
+  .circle1,
+  .circle2{
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .pro{
+    border-radius: 2rem;
+    position: relative;
+  }
+
+  .pro img{
+    position: relative;
+    top:-10%;
+    right: 10%;
+  }
+
+  .pro h2{
+    width: 20%;
+  }
 }
